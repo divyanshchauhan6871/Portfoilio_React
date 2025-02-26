@@ -242,6 +242,20 @@
   color: black;
   transition-duration: 0.2s;
 }
+
+.scaling1 {
+  background: none;
+  padding: 1rem;
+}
+
+.scaling1:hover {
+  transition-property: scale, background, position, transform, padding;
+  scale: 1.2;
+  transform: translateX(20px);
+  color: black;
+  transition-duration: 0.3s;
+}
+
 /* button styling */
 
 .projectpicture {
