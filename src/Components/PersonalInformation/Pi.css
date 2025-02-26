@@ -1,0 +1,39 @@
+.Picontainer {
+  position: sticky;
+  top: 5vh;
+  animation-name: sidebarframe;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  border-radius: 2rem;
+}
+
+@keyframes sidebarframe {
+  0% {
+    box-shadow: rgb(112, 185, 241) 1px 1px 25px;
+  }
+  50% {
+    box-shadow: rgb(251, 234, 78) 1px 1px 25px;
+  }
+  100% {
+    box-shadow: rgb(250, 143, 143) 1px 1px 25px;
+  }
+}
+
+.profilepic {
+  width: auto;
+  width: 75%;
+}
+
+.hyperlinks {
+  width: 20%;
+}
+
+.sp {
+  width: 100%;
+  font-size: larger;
+  background: none;
+  color: white;
+  border: none;
+  box-shadow: grey 1px 1px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
