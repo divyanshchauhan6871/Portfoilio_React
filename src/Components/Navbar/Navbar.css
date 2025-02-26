@@ -1,4 +1,4 @@
-.nav-container {
+/* .nav-container {
   top: 0px;
   border-bottom: 0.1rem solid white;
   display: flex;
@@ -25,4 +25,32 @@
   background-color: rgb(0, 0, 0);
   transition-duration: 0.2s;
   color: rgb(134, 219, 255);
+} */
+
+.nav-container {
+  top: 0px;
+  border-bottom: 0.1rem solid white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link_container {
+  border: 2px white;
+  border-style: dashed;
+  min-width: fit-content;
+  text-align: center;
+}
+
+.linking {
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  padding: 10px; /* Added padding for better click area */
+}
+
+/* ✅ Active Link Styling */
+.active-link {
+  color: #33ccfe;
 }

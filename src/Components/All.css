@@ -237,10 +237,10 @@
 
 .scaling:hover {
   transition-property: scale, background, position, transform;
-  background-color: #118ab2;
-  transform: translateX(10px) translateY(-5px);
+  background-color: #56d5ff;
+  transform: translateY(-15px);
   color: black;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
 }
 /* button styling */
 
@@ -252,19 +252,25 @@
 
 .clickhere {
   font-size: x-large;
-  background: none;
+  background: black;
   padding: 10px;
   min-width: 15%;
   font-weight: 500;
   border-radius: 1.5rem;
+  color: white;
   box-shadow: #8ae1fe 2px 2px 10px;
+  text-decoration: none;
 }
 
 .clickhere:hover {
-  transition-property: scale;
-  transition-duration: 0.2s;
-  background-color: #0e2128;
+  transition-property: color, background, scale;
+  text-decoration: none;
+  transition-duration: 0.1s;
+  background-color: #010040;
+  scale: 1.1;
   cursor: default;
+  color: black;
+  box-shadow: white 2px 2px 10px;
 }
 
 @media screen and (min-width: 10px) and (max-width: 330px) {
