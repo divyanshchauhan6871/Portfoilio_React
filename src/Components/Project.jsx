@@ -17,8 +17,9 @@ function Project() {
           </div>
           <div className="col-xl-8 col-lg-8 col-md-6 col-sm-12 col-12 text-white">
             <Navbar />
-            <div className="row justify-content-around border-bottom mt-2 py-4">
-              <div className="col-xl-4 col-lg-6 col-md-4 col-sm-12">
+
+            <div className="row justify-content-around border-bottom py-4 text-center">
+              <div className="col-3">
                 <img
                   src={pattern}
                   width="100%"
@@ -26,16 +27,13 @@ function Project() {
                   alt=""
                 />
               </div>
-              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-center">
+              <div className="col-7 text-center">
                 <span className="heading px-2">Description </span> <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae quia, voluptatibus atque architecto ipsam aliquid
-                consectetur iste ut tempora saepe ullam quis aperiam
-                consequuntur ad nulla culpa doloribus accusantium totam voluptas
-                sequi sint velit. Maiores animi quam cupiditate mollitia
-                assumenda?
+                This was the project that I have presented in the department
+                level Innotech. This was the web based project showcasing my
+                skillset to draw the various patterns.
               </div>
-              <div className="col-xl-2 col-lg-6 col-md-2 col-sm-12 d-flex">
+              <div className="col-2 d-flex">
                 <button
                   className="clickhere text-white"
                   style={{
@@ -43,13 +41,15 @@ function Project() {
                     justifyContent: "center",
                     alignItems: "center",
                     height: "fitcontnet",
+                    fontSize: "1vw",
                   }}>
                   Click here
                 </button>
               </div>
             </div>
-            <div className="row justify-content-around border-bottom py-4">
-              <div className="col-4">
+
+            <div className="row justify-content-around border-bottom py-4 text-center">
+              <div className="col-3">
                 <img
                   src={stone}
                   width="100%"
@@ -57,14 +57,10 @@ function Project() {
                   alt=""
                 />
               </div>
-              <div className="col-6 text-center">
+              <div className="col-7 text-center">
                 <span className="heading px-2">Description </span> <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae quia, voluptatibus atque architecto ipsam aliquid
-                consectetur iste ut tempora saepe ullam quis aperiam
-                consequuntur ad nulla culpa doloribus accusantium totam voluptas
-                sequi sint velit. Maiores animi quam cupiditate mollitia
-                assumenda?
+                This is the Command line based game of Stone Papar Scissors game
+                writern in the C language.
               </div>
               <div className="col-2 d-flex">
                 <button
@@ -74,13 +70,14 @@ function Project() {
                     justifyContent: "center",
                     alignItems: "center",
                     height: "fitcontnet",
+                    fontSize: "1vw",
                   }}>
                   Click here
                 </button>
               </div>
             </div>
-            <div className="row justify-content-around border-bottom py-4">
-              <div className="col-4">
+            <div className="row justify-content-around border-bottom py-4 text-center">
+              <div className="col-3">
                 <img
                   src={quiz}
                   width="100%"
@@ -88,14 +85,10 @@ function Project() {
                   alt=""
                 />
               </div>
-              <div className="col-6 text-center">
+              <div className="col-7 text-center">
                 <span className="heading px-2">Description </span> <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae quia, voluptatibus atque architecto ipsam aliquid
-                consectetur iste ut tempora saepe ullam quis aperiam
-                consequuntur ad nulla culpa doloribus accusantium totam voluptas
-                sequi sint velit. Maiores animi quam cupiditate mollitia
-                assumenda?
+                This Project include the quiz on several topics like Ramayana,
+                Mahabharat, Cricket and Football.
               </div>
               <div className="col-2 d-flex">
                 <button
@@ -105,13 +98,14 @@ function Project() {
                     justifyContent: "center",
                     alignItems: "center",
                     height: "fitcontnet",
+                    fontSize: "1vw",
                   }}>
                   Click here
                 </button>
               </div>
             </div>
-            <div className="row justify-content-around border-bottom py-4">
-              <div className="col-4">
+            <div className="row justify-content-around border-bottom py-4 text-center">
+              <div className="col-3">
                 <img
                   src={section}
                   width="100%"
@@ -119,14 +113,12 @@ function Project() {
                   alt=""
                 />
               </div>
-              <div className="col-6 text-center">
+              <div className="col-7 text-center">
                 <span className="heading px-2">Description </span> <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae quia, voluptatibus atque architecto ipsam aliquid
-                consectetur iste ut tempora saepe ullam quis aperiam
-                consequuntur ad nulla culpa doloribus accusantium totam voluptas
-                sequi sint velit. Maiores animi quam cupiditate mollitia
-                assumenda?
+                This was my individual class project in which I was assigned to
+                collect the information of the students studying along side and
+                present them in the website to access them when needed for the
+                department.
               </div>
               <div className="col-2 d-flex">
                 <button
@@ -136,6 +128,7 @@ function Project() {
                     justifyContent: "center",
                     alignItems: "center",
                     height: "fitcontnet",
+                    fontSize: "1vw",
                   }}>
                   Click here
                 </button>

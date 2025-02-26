@@ -246,7 +246,8 @@
 
 .projectpicture {
   border-radius: 1rem;
-  height: 28vh;
+  max-height: 20vh;
+  width: auto;
 }
 
 .clickhere {
@@ -256,6 +257,7 @@
   min-width: 15%;
   font-weight: 500;
   border-radius: 1.5rem;
+  box-shadow: #8ae1fe 2px 2px 10px;
 }
 
 .clickhere:hover {
