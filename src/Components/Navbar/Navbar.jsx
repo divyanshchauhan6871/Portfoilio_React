@@ -49,7 +49,7 @@ function Navbar() {
     { path: "/education", label: "Education" },
     { path: "/projects", label: "Projects" },
     { path: "/certificates", label: "Certificate" },
-    { path: "/contact", label: "Contact" },
+    // { path: "/contact", label: "Contact" },
   ];
 
   return (

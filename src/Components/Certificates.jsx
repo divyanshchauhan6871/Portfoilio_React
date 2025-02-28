@@ -5,6 +5,7 @@ import rsoft from "../assets/Certificates/Foundations of R Software.jpeg";
 import cprog from "../assets/Certificates/Introduction to programming in C.jpg";
 import dbms from "../assets/Certificates/Data Base Management System.jpg";
 import soft from "../assets/Certificates/Enhancing Soft Skills and Personality.jpg";
+import coursera1 from "../assets/coursera1.png";
 
 function Certificates() {
   return (
@@ -44,6 +45,14 @@ function Certificates() {
               <div className="col-xl-6 col-lg-6 col-md-11 col-sm-11 mt-3 rounded">
                 <img
                   src={soft}
+                  className="rounded scaling1"
+                  width="90%"
+                  alt=""
+                />
+              </div>
+              <div className="col-xl-6 col-lg-6 col-md-11 col-sm-11 mt-3 rounded">
+                <img
+                  src={coursera1}
                   className="rounded scaling1"
                   width="90%"
                   alt=""
